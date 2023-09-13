@@ -1,0 +1,36 @@
+h1{
+    /* Here h1 is element selector */
+    /* # represent Id selector .They Represent element unikly */
+    /* .Represent class Selector .Multiple group Target or Ekse Jayda Selector*/
+     /* *Represent UniVersal */
+     /* , It Is used to Store  */
+    font-size: 32;
+    color: rgb(18, 18, 20);
+}
+h2{
+    font: bolder;
+    color: brown;
+}
+#Middle{
+    /* This Represent Id */
+    color: aqua;
+}
+.G{
+    /* This Represent class G */
+    color: chocolate;
+    border: 2px dashed black;
+}
+*{
+    /* This is Union By default it is applicable to allor we can Say It Is Universal */
+    border: 2px solid black;
+}
+
+/* Grouping of element we can do by just separating them by comma*/
+h1,h2,h3{
+    color: black;
+}
+/* .odd.even Without space 
+.odd even With Space Fark  */
+.G.k{
+    background-color: rgb(70, 4, 4);
+}
